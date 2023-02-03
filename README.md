@@ -12,7 +12,7 @@ Just `python` no longer works on any of the machines, everything is `python3` no
 
     import sys
     sys.stdout.buffer.write(b"\x37\x8a\x04\x08")
-    
+
 In python3, strings are Unicode strings by default, in order to print strings as byte-strings, we have to use sys.stdout.buffer.write
 
 Source: https://discuss.python.org/t/unusal-behavior-of-python3-print-hex-values/15418
