@@ -1,4 +1,4 @@
-OTW Narnia solutions!
+# OTW Narnia solutions!
 
 Note the difference in behavior between python2 and python3
 
@@ -16,3 +16,8 @@ Just `python` no longer works on any of the machines, everything is `python3` no
 In python3, strings are Unicode strings by default, in order to print strings as byte-strings, we have to use sys.stdout.buffer.write
 
 Source: https://discuss.python.org/t/unusal-behavior-of-python3-print-hex-values/15418
+
+
+#### Note
+narnia _x_ soln.sh indicates that it is the solution to get the password of level _x_ 
+Example - narnia2soln.sh contains the solution which has to be run as user narnia1, and spawn a shell of user narnia2
