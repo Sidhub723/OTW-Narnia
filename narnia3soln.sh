@@ -6,3 +6,5 @@
 #Even after finding some working shellcode, the shell which was popped did not belong to narnia3 - the owner of the file narnia2
 #After doing some digging, it turns out that one had to do the setreuid(id,id) syscall before execve("/bin/sh") to make sure the permissions were inherited from the parent
 #https://security.stackexchange.com/questions/184842/shellcode-does-not-execute-as-the-owner/192963#192963 --- useful
+
+#narnia3 password at the time of solving -- 8SyQ2wyEDU
