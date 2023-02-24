@@ -21,4 +21,6 @@ Source: https://discuss.python.org/t/unusal-behavior-of-python3-print-hex-values
 #### Note
 narnia _x_ soln.sh indicates that it is the solution to get the password of level _x_ 
 
-Example - narnia2soln.sh contains the solution which has to be run as user narnia1, and spawn a shell of user narnia2
+Example - narnia2soln.sh contains the solution which has to be run as user narnia1, and spawns a shell of user narnia2.
+
+If shell spawned does not carry privileges of the owner, try closing the ssh session and login again, and use the same exploit again, chances are, it will work properly.
